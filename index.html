@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="barranav">
+        <ul class="nav-1">
+            <li><img src="./imagenes/flechaizq.jpg" alt="logoizq"></li>
+            <li><img src="./imagenes/flechader.jpg" alt="logoder"></li>
+            <li><img src="./imagenes/x.png" alt="equis"></li>
+            <li><img src="./imagenes/casa.png" alt="home"></li>
+        </ul>
+            <div><input class="url" type="text"></div>
+            <div class="busqueda-1"><input class="busqueda" type="text"></div>
+        
+    </div>
+    <div class="container">
+        <div class="login">
+            <h1>Dojonary</h1>
+            <input class="search" type="text" placeholder="Search">
+            <div><button onclick="logout(this)" class="botonlogin" id="btn">login</button></div>
+        </div>
+        <div class="fila1">
+            <div class="ninja1">
+                <div class="ninja1-cuadro1">
+                    <div class="n1"><h2>ninja</h2></div>
+                    <div class="n2"><h3>noun</h3></div>
+                    <div class="n3">Plural: ninjas</div>
+                    <div class="n4"><button onclick="alertaLike(this)" class="botonlikes">13 likes</button></div>
+                </div>
+                <div class="ninja1-cuadro2">
+                    <span>A practitioner skilled in the Japanese art of ninjutsu</span>
+                </div>
+            </div>
+            <div class="add">
+                <h2>Dojonary is defined by YOU </h2>
+                <button class="add-def" onclick="removerAdd(this)">Add Definition</button>
+            </div>
+        </div>
+        <div class="ninja2">
+            <div class="ninja1-cuadro1">
+                <div class="n1"><h2>ninja</h2></div>
+                <div class="n2"><h3>noun</h3></div>
+                <div class="n3">Plural: ninjas</div>
+                <div class="n4"><button onclick="alertaLike(this)" class="botonlikes">37 likes</button></div>
+            </div>
+            <div class="ninja1-cuadro2">
+                <span>A programmer who breaks down problems with zen-like focus</span>
+            </div>
+        </div>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
